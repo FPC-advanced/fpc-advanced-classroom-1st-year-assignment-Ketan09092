@@ -13,7 +13,7 @@ int main()
         scanf("%d",&a[i]);
     }
     int x;
-    printf("Enter th value of x : \n");
+    printf("Enter the value of x : \n");
     scanf("%d",&x);
     int sum=0;
     for(int i=0;i<=z;i++)
