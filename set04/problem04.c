@@ -15,9 +15,9 @@ int main()
     int x;
     printf("Enter th value of x : \n");
     scanf("%d",&x);
-    int sum;
+    int sum=0;
     for(int i=0;i<=z;i++)
     {
-        
+        sum+=;
     }
 }
