@@ -1,0 +1,10 @@
++l
+No symbol table is loaded.  Use the "file" command.
++l
+No symbol table is loaded.  Use the "file" command.
++problem05
+Undefined command: "problem05".  Try "help".
++r
+Starting program:  
+No executable specified, use `target exec'.
++q

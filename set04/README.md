@@ -71,11 +71,7 @@ for n = 6 and r = 3, nCr = 20
 
 ***Function Declarations***
 ```c
-int input_degree();
-void input_coefficients(int n, float a[n]);
-float input_x();
-float evaluate_polynomial(int n, float a[n], float x);
-void output(int n, float a[n], float x, float result);
+ 
 ```
 
 ***Input***

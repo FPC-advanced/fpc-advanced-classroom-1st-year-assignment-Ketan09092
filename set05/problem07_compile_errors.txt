@@ -1,0 +1,40 @@
+Compilation started at 10/30/2023, 3:38:21 PM
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c: In function 'main':
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c:9:11: warning: passing argument 1 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+     input(&name);
+           ^
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c:2:6: note: expected 'char *' but argument is of type 'char **'
+ void input(char *name);
+      ^~~~~
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c:10:28: warning: passing argument 1 of 'has_nice_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     int res= has_nice_name(&name);
+                            ^
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c:3:5: note: expected 'char *' but argument is of type 'char **'
+ int has_nice_name(char *c);
+     ^~~~~~~~~~~~~
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c: In function 'has_nice_name':
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c:21:15: error: 'c' redeclared as different kind of symbol
+     int j,v=0,c=0;
+               ^
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c:19:25: note: previous definition of 'c' was here
+ int has_nice_name(char *c)
+                         ^
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c:22:14: error: subscripted value is neither array nor pointer nor vector
+     for(j=0;c[j]!='\0';j++);
+              ^
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c:25:13: error: subscripted value is neither array nor pointer nor vector
+         if(c[i]=='a'|| c[i]=='e'||c[i]=='i'||c[i]=='o'||c[i]=='u')
+             ^
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c:25:25: error: subscripted value is neither array nor pointer nor vector
+         if(c[i]=='a'|| c[i]=='e'||c[i]=='i'||c[i]=='o'||c[i]=='u')
+                         ^
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c:25:36: error: subscripted value is neither array nor pointer nor vector
+         if(c[i]=='a'|| c[i]=='e'||c[i]=='i'||c[i]=='o'||c[i]=='u')
+                                    ^
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c:25:47: error: subscripted value is neither array nor pointer nor vector
+         if(c[i]=='a'|| c[i]=='e'||c[i]=='i'||c[i]=='o'||c[i]=='u')
+                                               ^
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem07.c:25:58: error: subscripted value is neither array nor pointer nor vector
+         if(c[i]=='a'|| c[i]=='e'||c[i]=='i'||c[i]=='o'||c[i]=='u')
+                                                          ^
+Compilation finished at 10/30/2023, 3:38:21 PM

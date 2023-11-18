@@ -1,0 +1,38 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231023024048
+Username: LAPTOP-2UIQSQOE\ketan
+RunAs User: LAPTOP-2UIQSQOE\ketan
+Configuration Name: 
+Machine: LAPTOP-2UIQSQOE (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\ketan\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 20440
+PSVersion: 5.1.22621.2428
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2428
+BuildVersion: 10.0.22621.2428
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem06_session.txt
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> Start-Transcript -Path "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem07_session.txt"
+Transcript started, output file is c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem07_session.txt
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> Stop-Transcript
+Transcript stopped, output file is C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem07_session.txt
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> git add .
+
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> git commit -m "committed 10/23/2023, 2:50:48 AM"
+
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> git push
+
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> gcc -g "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem07.c" -o "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem07.exe" 2>&1
+
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem07.exe
+
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231023031046
+**********************

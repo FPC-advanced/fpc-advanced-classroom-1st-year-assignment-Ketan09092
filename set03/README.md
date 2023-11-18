@@ -176,7 +176,7 @@ typedef struct point {
 
 typedef struct polygon {
     int sides;
-    point p[100];
+    Point p[100];
     float perimeter;
 } Polygon;
 

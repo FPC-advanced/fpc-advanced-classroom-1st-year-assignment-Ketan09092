@@ -1,0 +1,43 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231022225318
+Username: LAPTOP-2UIQSQOE\ketan
+RunAs User: LAPTOP-2UIQSQOE\ketan
+Configuration Name: 
+Machine: LAPTOP-2UIQSQOE (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\ketan\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 28228
+PSVersion: 5.1.22621.2428
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2428
+BuildVersion: 10.0.22621.2428
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem03_session.txt
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> gcc -g "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem03.c" -o "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem03.exe" 2>&1
+
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem03.exe"
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem03.exe
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> gcc -g "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem03.c" -o "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem03.exe" 2>&1
+
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem03.exe"
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem03.exe
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> gcc -g "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem03.c" -o "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem03.exe" 2>&1
+gcc : c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem03.exe: Permission denied
+At line:1 char:1
++ gcc -g "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-cla ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:/mingw/bin/.....rmission denied:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+collect2.exe: error: ld returned 1 exit status
+
+PS C:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092> Start-Transcript -Path "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem03_session.txt"
+**********************
+Windows PowerShell transcript end
+End time: 20231022225605
+**********************

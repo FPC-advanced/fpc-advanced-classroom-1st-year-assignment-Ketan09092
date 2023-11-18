@@ -1,0 +1,12 @@
+Compilation started at 10/30/2023, 2:29:59 PM
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem06.c: In function 'main':
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem06.c:11:6: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     n=input_n;
+      ^
+Compilation finished at 10/30/2023, 2:29:59 PM
+Compilation started at 10/30/2023, 2:30:07 PM
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem06.c: In function 'main':
+c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set05\problem06.c:11:6: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     n=input_n;
+      ^
+Compilation finished at 10/30/2023, 2:30:07 PM

@@ -217,7 +217,7 @@ world is greater than hello
 struct _complex {
 	float real;
 	float imaginary;
-}
+};
 typedef struct _complex Complex;
 
 Complex input_complex();
@@ -248,6 +248,7 @@ typedef struct _complex Complex;
 
 int get_n();
 Complex input_complex();
+
 void input_n_complex(int n, Complex c[n]);
 Complex add(Complex a, Complex b);
 Complex add_n_complex(int n, Complex c[n]);
