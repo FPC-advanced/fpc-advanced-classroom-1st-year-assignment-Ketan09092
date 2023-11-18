@@ -20,4 +20,5 @@ int main()
     {
         sum+=a[i]*x;
     }
+    
 }
