@@ -29,7 +29,7 @@ int sum_n_nos(int n)
 }
 void output(int n, int sum)
 {
-    for(int i=1;i<n;i+)
+    for(int i=1;i<n;i+=2)
     {
         printf("%d + %d ",i,i+1);
         
