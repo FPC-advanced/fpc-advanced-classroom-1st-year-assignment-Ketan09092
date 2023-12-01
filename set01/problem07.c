@@ -32,7 +32,7 @@ void output(int n, int sum)
     printf("1");
     for(int i=2;i<=n;i++)
     {
-        printf("+ %d",i);
+        printf(" + %d",i);
     }
-    printf("")
+    printf(" is %d \n",sum);
 }
