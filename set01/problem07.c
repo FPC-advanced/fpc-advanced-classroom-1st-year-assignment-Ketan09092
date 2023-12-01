@@ -27,10 +27,11 @@ int sum_n_nos(int n)
     }
     return sum;
 }
-void output(int n, int sum) {
+void output(int n, int sum) 
+{
     printf("1");
-    for (int i = 2; i <= n; i++) {
-        printf(" + %d", i);
+    for(int i=2;i<=n;i++)
+    {
+        
     }
-    printf(" is %d\n", sum);
 }
