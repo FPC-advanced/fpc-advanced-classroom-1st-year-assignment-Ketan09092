@@ -31,8 +31,8 @@ void output(int n, int sum)
 {
     for(int i=1;i<n;i++)
     {
-        printf("%d + %d",i,i+1);
+        printf("%d + %d ",i,i+1);
         
     }
-    printf("%d",sum);
+    printf("is %d",sum);
 }
