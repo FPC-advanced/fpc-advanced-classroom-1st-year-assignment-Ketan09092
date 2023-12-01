@@ -1,5 +1,3 @@
-// Write a program to find the permeter of a polygon
-
 #include <stdio.h>
 #include <math.h>
 

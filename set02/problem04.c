@@ -39,12 +39,16 @@ int sum_composite_numbers(int n, int a[n])
         {
             if(a[i]%j==0)
             {
-                sum = sum +a[i];
+                x++;
             }
             
+        }
+        if(x>2)
+        {
+            sum+=a[i];
+        }
     }
     return sum;
-}
 }
 void output(int sum)
 {

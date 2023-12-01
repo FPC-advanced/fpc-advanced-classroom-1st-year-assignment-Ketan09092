@@ -12,7 +12,7 @@ int main()
 }
 float input()
 {
-       int n;
+       float n;
        printf("Enter the value of n : \n");
        scanf("%f",&n);
        return n;

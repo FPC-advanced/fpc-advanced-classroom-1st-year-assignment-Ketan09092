@@ -110,6 +110,7 @@ The index of the largest number in the array is 2
 
 ---
 
+
 6. Write a program to count the number of words in a string using strtok (_string.h_)
 
 ***Function Declarations***

@@ -1,0 +1,134 @@
++l
+1	#include <stdio.h>
+2	
+3	int input();
+4	int find_gcd(int a, int b);
+5	void output(int a, int b, int gcd);
+6	
+7	int main()
+8	{
+9	    int a,b,gcd;
+10	    a=input();
++l
+11	    b=input();
+12	    gcd=find_gcd(a,b);
+13	    output(a,b,gcd);
+14	    return 0;
+15	}
+16	int input()
+17	{
+18	    int x;
+19	    printf("Enter the number : \n");
+20	    scanf("%d",&x);
++b 10
+Breakpoint 1 at 0x40146e: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c, line 10.
++b 11
+Breakpoint 2 at 0x401477: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c, line 11.
++b 12
+Breakpoint 3 at 0x401480: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c, line 12.
++b 18
+Breakpoint 4 at 0x4014c1: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c, line 18.
++b 21
+Breakpoint 5 at 0x4014e0: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c, line 21.
++n
+The program is not being run.
++r
+Starting program: c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02/./problem05.exe 
+[New Thread 9596.0x1d30]
+[New Thread 9596.0x3f70]
+
+Breakpoint 1, main () at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:10
+10	    a=input();
++n
+
+Breakpoint 4, input () at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:19
+19	    printf("Enter the number : \n");
++n
+20	    scanf("%d",&x);
++print a
+No symbol "a" in current context.
++print x
+$1 = 6422476
++n
+
+Breakpoint 5, input () at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:21
+21	    return x;
++print x
+$2 = 32
++n
+22	}
++print a
+No symbol "a" in current context.
++print b
+No symbol "b" in current context.
++n
+
+Breakpoint 2, main () at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:11
+11	    b=input();
++n
+
+Breakpoint 4, input () at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:19
+19	    printf("Enter the number : \n");
++n
+20	    scanf("%d",&x);
++45
+Undefined command: "45".  Try "help".
++n
+
+Breakpoint 5, input () at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:21
+21	    return x;
++print x
+$3 = 34
++n
+22	}
++n
+
+Breakpoint 3, main () at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:12
+12	    gcd=find_gcd(a,b);
++print a
+$4 = 32
++print b
+$5 = 34
++n
+13	    output(a,b,gcd);
++n
+14	    return 0;
++n
+15	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++b 25
+Breakpoint 6 at 0x4014eb: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c, line 25.
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++step in find_gcd
+No symbol "in" in current context.
++step in find_gcd(int a, int b)
+No symbol "in" in current context.
++step in
+No symbol "in" in current context.
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02/./problem05.exe 
+[New Thread 24844.0xe88]
+[New Thread 24844.0x1df4]
+
+Breakpoint 1, main () at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:10
+10	    a=input();
++q
+A debugging session is active.
+
+	Inferior 1 [process 24844] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
