@@ -32,6 +32,6 @@ void output(int n, int sum)
     printf("1");
     for(int i=2;i<=n;i++)
     {
-        
+        printf("+ %d")
     }
 }
