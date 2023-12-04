@@ -32,5 +32,3 @@ void output(char *a, char *reverse_a)
 {
     printf("%s \n",reverse_a);
 }
-
-
