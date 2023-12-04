@@ -11,6 +11,7 @@ int main()
     char a[100],rev_str[100];
     input_string(a);
     // str_reverse(a,rev_str);
+    str_reverse(str)
     output(a,rev_str);
 }
 void input_string(char *a)
@@ -39,7 +40,7 @@ void str_reverse(char *str)
     {
         rev=str[i];
         str[l]=str[i];
-        str[i]
+        str[i]=rev;
     }
 }
 void output(char *a, char *reverse_a)
