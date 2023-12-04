@@ -33,11 +33,13 @@ void str_reverse(char *str)
 {
     int l;
     for(l=0;str[l]!='\0';l++);
+    l=l-1;
     char rev;
-    for(int i=0;i<j,str[i]!='\0';i++)
+    for(int i=0;i<l,str[i]!='\0';i++)
     {
         rev=str[i];
-        str[]
+        str[l]=str[i];
+        str[i]
     }
 }
 void output(char *a, char *reverse_a)
