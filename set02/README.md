@@ -29,8 +29,8 @@ The area of the traingle with base 1.000000 and height 2.000000 is 1.000000
 ***Function Declarations***
 ```c
 int input_side();
-int check_scalene(float a, int b, int c);
-void output(int a, int b, int c, int isscalene);
+int check_scalene(float a, float b, float c);
+void output(float a, float b, float c, float isscalene);
 ```
 
 ***Input***
