@@ -3,8 +3,10 @@
 
 void input_string(char *a);
 // void str_reverse(char *str, char *rev_str);
+// void output(char *a, char *reverse_a);
 void str_reverse(char *str);
-void output(char *a, char *reverse_a);
+void output(char *a);
+
 
 int main()
 {
@@ -48,7 +50,7 @@ void str_reverse(char *str)
 // {
 //     printf("%s \n",reverse_a);
 // }
-void output(char *a, char *reverse_a)
+void output(char *a)
 {
     printf("%s \n",reverse_a);
 }
