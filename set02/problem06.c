@@ -13,7 +13,7 @@ int main()
     // str_reverse(a,rev_str);
     // output(a,rev_str);
     str_reverse(a);
-
+    output(a);
 }
 void input_string(char *a)
 {
@@ -44,6 +44,10 @@ void str_reverse(char *str)
         str[i]=rev;
     }
 }
+// void output(char *a, char *reverse_a)
+// {
+//     printf("%s \n",reverse_a);
+// }
 void output(char *a, char *reverse_a)
 {
     printf("%s \n",reverse_a);
