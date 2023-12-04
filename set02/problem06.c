@@ -28,6 +28,7 @@ void input_string(char *a)
 //     }
 //     rev_str[d]='\0';
 // }
+void 
 void output(char *a, char *reverse_a)
 {
     printf("%s \n",reverse_a);
