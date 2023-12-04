@@ -26,7 +26,7 @@ void str_reverse(char *str, char *rev_str)
     {
         rev_str[j-1]=str[i];
     }
-    // rev_str[d]='\0';
+    rev_str[d]='\0';
 }
 void output(char *a, char *reverse_a)
 {
