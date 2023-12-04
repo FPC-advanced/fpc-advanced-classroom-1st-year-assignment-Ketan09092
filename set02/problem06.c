@@ -32,7 +32,8 @@ void input_string(char *a)
 void str_reverse(char *str)
 {
     int l;
-    for(l=0;)
+    for(l=0;str[l]!='\0';l++);
+    char rev
 }
 void output(char *a, char *reverse_a)
 {
