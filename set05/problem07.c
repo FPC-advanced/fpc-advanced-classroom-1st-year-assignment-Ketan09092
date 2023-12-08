@@ -22,7 +22,7 @@ int has_nice_name(char *name)
     for(j=0;name[j]!='\0';j++);
     for(int i=0;i<j;i++)
     {
-        if(name[i]=='a'|| name[i]=='e'||name[i]=='i'||name[i]=='o'||name[i]=='u')
+        if(name[i]=='a' || name[i]=='e' || name[i]=='i' || name[i]=='o' || name[i]=='u' || name[i]=='A' || name[i]=='E' || name[i]=='O' || name[i]=='U')
         {
             v++;
         }

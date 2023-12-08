@@ -11,28 +11,40 @@ int main()
     b=input();
     gcd=find_gcd(a,b);
     output(a,b,gcd);
-    return 0;
 }
 int input()
 {
-    int x;
+    int a;
     printf("Enter the number : \n");
-    scanf("%d",&x);
-    return x;
+    scanf("%d",&a);
+    return a;
 }
 int find_gcd(int a, int b)
 {
-    int c=a%b;
-    if(c==0)
+    int c;
+    // while(b!=0)
+    // {
+    //     c=a%b;
+    //     a=b;
+    //     b=c;
+    // }
+    // return a;
+    
+    for(int i=0;;i++)
     {
-       return b;
-    }
-    else
-    {
-       find_gcd(b,c);
+        c=a%b;
+        if(c==0)
+        {
+            return b;
+        }
+        else
+        {
+            a=b;
+            b=c;
+        }
     }
 }
 void output(int a, int b, int gcd)
 {
-    printf("The HCF of %d and %d is %d \n",a,b,gcd);
+    printf("Gcd is %d \n",gcd);
 }

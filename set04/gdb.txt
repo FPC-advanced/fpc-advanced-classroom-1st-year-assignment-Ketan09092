@@ -1,0 +1,79 @@
++r
+Starting program: c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04/./problem01.exe 
+[New Thread 13220.0x3238]
+[New Thread 13220.0x4920]
+[Inferior 1 (process 13220) exited normally]
++b 11
+Breakpoint 1 at 0x401471: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem01.c, line 11.
++b 12
+Breakpoint 2 at 0x401495: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem01.c, line 12.
++b 39
+Breakpoint 3 at 0x4015c4: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem01.c, line 39.
++b 41
+Note: breakpoint 3 also set at pc 0x4015c4.
+Breakpoint 4 at 0x4015c4: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem01.c, line 41.
++b 42
+Breakpoint 5 at 0x4015db: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem01.c, line 42.
++b 43
+Breakpoint 6 at 0x4015e9: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem01.c, line 43.
++b 44
+Breakpoint 7 at 0x401602: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem01.c, line 44.
++b 45
+Breakpoint 8 at 0x401612: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem01.c, line 45.
++b 47
+Breakpoint 9 at 0x40162b: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem01.c, line 47.
++n
+The program is not being run.
++r
+Starting program: c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04/./problem01.exe 
+[New Thread 7672.0xe58]
+[New Thread 7672.0x2598]
+
+Breakpoint 1, main () at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem01.c:11
+11	    input(&num1,&den1,&num2,&den2);
++n
+
+Breakpoint 2, main () at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem01.c:12
+12	    add(num1,den1,num2,den2,&res_num,&res_den);
++n
+
+Breakpoint 3, add (num1=2, den1=3, num2=4, den2=3, res_num=0x61fefc, res_den=0x61fef8)
+    at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem01.c:41
+41	    *res_num=(num1*den2)+(num2*den1);
++n
+
+Breakpoint 5, add (num1=2, den1=3, num2=4, den2=3, res_num=0x61fefc, res_den=0x61fef8)
+    at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set04\problem01.c:42
+42	    *res_den=den1*den2;
++print *res_num
+$1 = 18
++p *res_den
+$2 = -2
++p num1
+$3 = 2
++p den1
+$4 = 3
++p den2
+$5 = 3
++p res_den
+$6 = (int *) 0x61fef8
++p *res_den
+$7 = -2
++cd "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03"
+"c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03": Invalid argument.
++gcc -g "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03\problem03.c" -o "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03\problem03.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03\problem03.exe"
+Undefined command: "".  Try "help".
++cd "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03"
+"c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03": Invalid argument.
++gcc -g "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03\problem03.c" -o "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03\problem03.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03\problem03.exe"
+Undefined command: "".  Try "help".
++q
+A debugging session is active.
+
+	Inferior 1 [process 7672] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

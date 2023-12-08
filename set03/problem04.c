@@ -22,8 +22,6 @@ int find_fibo(int n)
     int a[n];
 	a[0]=0;
 	a[1]=1;
-	printf("%d \n",a[0]);
-	printf("%d \n",a[1]);
 	for(int i=2;i<=n;i++)
 	{
 		a[i]=a[i-1]+a[i-2];
@@ -32,5 +30,5 @@ int find_fibo(int n)
 }
 void output(int n, int fibo)
 {
-	printf("fibo(%d) = %d",n,fibo);
+	printf("fibo(%d) = %d \n",n,fibo);
 }

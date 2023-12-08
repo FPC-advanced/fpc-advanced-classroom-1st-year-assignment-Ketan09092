@@ -48,6 +48,7 @@ int find_gcd(int a, int b)
         }
     }
 }
+
 Fraction add_fractions(Fraction f1, Fraction f2)
 {
     Fraction f3;

@@ -22,31 +22,23 @@ int input_number()
 int is_composite(int n)
 {
     int x=0;
-    for(int i=1;i<=n;i++)
+    for(int i=2;i*i<=n;i++)
     {
         if(n%i==0)
         {
-            x++;
-        }
-        else
-        {
-            continue;
+            return 0;
         }
     }
-    return x;
+    return 1;
 }
 void output(int n, int result)
 {
-    if(result>2)
+    if(result==0)
     {
         printf("The number %d is composite number \n",n);
     }
-    else if(result==2)
-    {
-        printf("The number %d is prime number \n",n);
-    }
     else
     {
-        printf("The number you gave is neither prime nor composite \n");
+        printf("The number is not a  composite number \n");
     }
 }

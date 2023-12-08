@@ -31,7 +31,7 @@ void input(int n, int a[n])
 }
 float odd_average(int n, int a[n])
 {
-    int sum=0.0;
+    int sum=0;
     int c=0;
     for(int i=0;i<n;i++)
     {

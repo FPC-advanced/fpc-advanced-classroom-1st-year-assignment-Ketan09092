@@ -1,0 +1,12 @@
++r
+Starting program: c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03/./problem04.exe 
+[New Thread 2744.0x206c]
+[New Thread 2744.0x4ca4]
+[Inferior 1 (process 2744) exited normally]
++cd "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03"
+"c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03": Invalid argument.
++gcc -g "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03\problem04.c" -o "c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03\problem04.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set03\problem04.exe"
+Undefined command: "".  Try "help".
++q

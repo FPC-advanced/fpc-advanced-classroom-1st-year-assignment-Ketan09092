@@ -132,3 +132,154 @@ A debugging session is active.
 	Inferior 1 [process 24844] will be killed.
 
 Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++r
+Starting program: c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02/./problem05.exe 
+[New Thread 3440.0x2b8]
+[New Thread 3440.0x108c]
+[Inferior 1 (process 3440) exited normally]
++b 10
+Breakpoint 1 at 0x40146e: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c, line 10.
++b 11
+Breakpoint 2 at 0x401477: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c, line 11.
++b 33
+Breakpoint 3 at 0x4014eb: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c, line 33.
++b 35
+Breakpoint 4 at 0x4014f2: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c, line 35.
++b 36
+Breakpoint 5 at 0x4014fc: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c, line 36.
++b 45
+Breakpoint 6 at 0x401519: file c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c, line 45.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040146e in main 
+                                           at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:10
+2       breakpoint     keep y   0x00401477 in main 
+                                           at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:11
+3       breakpoint     keep y   0x004014eb in find_gcd 
+                                           at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:33
+4       breakpoint     keep y   0x004014f2 in find_gcd 
+                                           at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:35
+5       breakpoint     keep y   0x004014fc in find_gcd 
+                                           at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:36
+6       breakpoint     keep y   0x00401519 in find_gcd 
+                                           at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:45
++n
+The program is not being run.
++r
+Starting program: c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02/./problem05.exe 
+[New Thread 2368.0x2668]
+[New Thread 2368.0x394c]
+
+Breakpoint 1, main () at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:10
+10	    a=input();
++n
+
+Breakpoint 2, main () at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:11
+11	    b=input();
++n
+12	    gcd=find_gcd(a,b);
++n
+
+Breakpoint 3, find_gcd (a=5, b=12) at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:33
+33	    for(int i=0;;i++)
++n
+
+Breakpoint 4, find_gcd (a=5, b=12) at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:35
+35	        c=a%b;
++n
+
+Breakpoint 5, find_gcd (a=5, b=12) at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:36
+36	        if(c==0)
++print c
+$1 = 5
++n
+43	            a=b;
++print a
+$2 = 5
++n
+44	            b=c;
++print a
+$3 = 12
++print b
+$4 = 12
++n
+33	    for(int i=0;;i++)
++print b
+$5 = 5
++p b
+$6 = 5
++n
+35	        c=a%b;
++n
+
+Breakpoint 4, find_gcd (a=12, b=5) at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:35
+35	        c=a%b;
++p c
+$7 = 5
++n
+
+Breakpoint 5, find_gcd (a=12, b=5) at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:36
+36	        if(c==0)
++p c
+$8 = 2
++n
+43	            a=b;
++n
+44	            b=c;
++n
+33	    for(int i=0;;i++)
++print a
+$9 = 5
++p b
+$10 = 2
++n
+35	        c=a%b;
++n
+
+Breakpoint 4, find_gcd (a=5, b=2) at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:35
+35	        c=a%b;
++n
+
+Breakpoint 5, find_gcd (a=5, b=2) at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:36
+36	        if(c==0)
++p c
+$11 = 1
++n
+43	            a=b;
++n
+44	            b=c;
++n
+33	    for(int i=0;;i++)
++p a
+$12 = 2
++p b
+$13 = 1
++p c
+$14 = 1
++n
+35	        c=a%b;
++n
+
+Breakpoint 4, find_gcd (a=2, b=1) at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:35
+35	        c=a%b;
++n
+
+Breakpoint 5, find_gcd (a=2, b=1) at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:36
+36	        if(c==0)
++p c
+$15 = 0
++n
+38	            return b;
++n
+
+Breakpoint 6, find_gcd (a=2, b=1) at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:47
+47	}
++n
+main () at c:\Users\ketan\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Ketan09092\set02\problem05.c:13
+13	    output(a,b,gcd);
++q
+A debugging session is active.
+
+	Inferior 1 [process 2368] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

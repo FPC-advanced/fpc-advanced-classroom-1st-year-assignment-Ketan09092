@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 float input_side();
 int check_scalene(float a, float b, float c);
@@ -24,7 +25,7 @@ float input_side()
 }
 int check_scalene(float a, float b, float c)
 {
-    if(a==b || a==c || b==c)
+    if(fabs(a-b) < 0.00001 || fabs(a-c) < 0.00001 || fabs(b-c) <0.00001)
     {
         return 0;
     }
